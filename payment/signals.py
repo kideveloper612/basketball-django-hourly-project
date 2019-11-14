@@ -8,7 +8,6 @@ from django.conf import settings
 from .models import SubscriptionStatus
 from django.core.mail import send_mail
 
-
 User = get_user_model() 
 
 def notify(message, ipn_rx):
